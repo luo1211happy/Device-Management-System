@@ -1,0 +1,147 @@
+TD {
+	FONT-SIZE: 12px; LINE-HEIGHT: 20px
+}
+.wu {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; BORDER-BOTTOM: #cccccc 1px solid
+}
+.button1 {
+	BORDER-RIGHT: #999999 1px double; BORDER-TOP: #999999 1px double; BORDER-LEFT: #999999 1px double; BORDER-BOTTOM: #999999 1px double
+}
+.button2 {
+	BORDER-RIGHT: #e1c486 1px outset; BORDER-TOP: #e1c486 1px outset; BORDER-LEFT: #e1c486 1px outset; COLOR: #ffffff; BORDER-BOTTOM: #e1c486 1px outset; HEIGHT: 18px; BACKGROUND-COLOR: #999999
+}
+.button3 {
+	BORDER-RIGHT: #e1c486 1px outset; BORDER-TOP: #e1c486 1px outset; BORDER-LEFT: #e1c486 1px outset; COLOR: #ffffff; BORDER-BOTTOM: #e1c486 1px outset; HEIGHT: 18px; BACKGROUND-COLOR: #c50000
+}
+A {
+	COLOR: #003399; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #ff0000; TEXT-DECORATION: none
+}
+A.menu {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.menu:hover {
+	COLOR: #ffff00; TEXT-DECORATION: none
+}
+A.tt1 {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A.tt1:hover {
+	COLOR: #ff0000; TEXT-DECORATION: none
+}
+A.tt2 {
+	COLOR: #ff0000; TEXT-DECORATION: none
+}
+A.tt2:hover {
+	COLOR: #0000ff; TEXT-DECORATION: none
+}
+A.tt3 {
+	COLOR: #ffffff
+}
+A.tt3:hover {
+	COLOR: #ff0000; TEXT-DECORATION: none
+}
+A.tt4 {
+	COLOR: #aa0000; TEXT-DECORATION: none
+}
+A.tt4:hover {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A.tt5 {
+	COLOR: #aa0000; TEXT-DECORATION: none
+}
+A.tt5:hover {
+	COLOR: #ff0000; TEXT-DECORATION: none
+}
+A.tt6 {
+	COLOR: #666666; TEXT-DECORATION: none
+}
+A.tt6:hover {
+	COLOR: #993300; TEXT-DECORATION: none
+}
+A.tt7 {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.tt7:hover {
+	COLOR: #ffff00; TEXT-DECORATION: none
+}
+A.start {
+	COLOR: #00ff00; TEXT-DECORATION: none
+}
+A.start:hover {
+	COLOR: #ffff00; TEXT-DECORATION: none
+}
+.font {
+	LINE-HEIGHT: 16px
+}
+.border {
+	BORDER-RIGHT: #565656 1px solid; BORDER-TOP: #565656 1px solid; BORDER-LEFT: #565656 1px solid; BORDER-BOTTOM: #565656 1px solid
+}
+.font1 {
+	LINE-HEIGHT: 22px
+}
+.sec_menu {
+	BORDER-RIGHT: white 1px solid; BACKGROUND: #d6dff7; OVERFLOW: hidden; BORDER-LEFT: white 1px solid; BORDER-BOTTOM: white 1px solid
+}
+.menu_title {
+	
+}
+.menu_title SPAN {
+	FONT-WEIGHT: bold; LEFT: 8px; COLOR: #215dc6; POSITION: relative; TOP: 2px
+}
+.menu_title2 {
+	
+}
+.menu_title2 SPAN {
+	FONT-WEIGHT: bold; LEFT: 8px; COLOR: #428eff; POSITION: relative; TOP: 2px
+}
+BODY {
+	BACKGROUND-POSITION: center 50%; SCROLLBAR-FACE-COLOR: #dedede; FONT-SIZE: 12px; SCROLLBAR-HIGHLIGHT-COLOR: #f5f9ff; SCROLLBAR-SHADOW-COLOR: #828282; SCROLLBAR-3DLIGHT-COLOR: #828282; SCROLLBAR-ARROW-COLOR: #797979; SCROLLBAR-TRACK-COLOR: #efefef; SCROLLBAR-DARKSHADOW-COLOR: #ffffff; BACKGROUND-COLOR: #dce9fa
+}
+.mnu1 {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.title {
+	FONT-SIZE: 14px
+}
+.bt1 {
+	PADDING-LEFT: 15px; BACKGROUND: url(/china/homepage/gif/bulletK.gif) no-repeat left top; MARGIN-BOTTOM: 12px
+}
+.bt2 {
+	PADDING-LEFT: 15px; BACKGROUND: url(/china/homepage/gif/bulletK.gif) no-repeat left top; MARGIN-BOTTOM: 0px
+}
+.pd1 {
+	PADDING-LEFT: 15px
+}
+A:link {
+	COLOR: #000099
+}
+A.ff {
+	FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #000099
+}
+A:hover {
+	COLOR: #ff3300
+}
+TD {
+	FONT-FAMILY: ËÎÌו: 12px
+}
+.90V {
+	FONT-SIZE: 12px; FONT-FAMILY: ËÎÌו
+}
+.blue14s {
+	FONT-SIZE: 14px; COLOR: #000099
+}
+.leftwz TD DIV {
+	COLOR: #747474
+}
+.exp {
+	MARGIN-LEFT: 10px; MARGIN-RIGHT: 10px
+}
+.admin_title {
+	FONT-WEIGHT: bolder; FONT-SIZE: 14px; COLOR: #ffffff
+}

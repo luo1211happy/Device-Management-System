@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<AreaData> 
+  <AreaItem AreaID="29" dx="0.5893" yy="2"/>
+  <AreaItem AreaID="26" dx="0.7949" yy="3"/>
+  <AreaItem AreaID="25" dx="1.0958" yy="4"/>
+  <AreaItem AreaID="24" dx="1.5005" yy="5"/>
+  <AreaItem AreaID="28" dx="1.2022" yy="5"/>
+  <AreaItem AreaID="30" dx="1.0001" yy="4"/>
+  <AreaItem AreaID="32" dx="0.5459" yy="2"/>
+  <AreaItem AreaID="33" dx="0.7242" yy="3"/>
+  <AreaItem AreaID="16" dx="1.0974" yy="4"/>
+  <AreaItem AreaID="19" dx="1.4072" yy="5"/>
+  <AreaItem AreaID="11" dx="0.8225" yy="3"/>
+  <AreaItem AreaID="15" dx="0.54" yy="2"/>
+  <AreaItem AreaID="7" dx="0.4789" yy="2"/>
+  <AreaItem AreaID="10" dx="0.3726" yy="2"/>
+  <AreaItem AreaID="22" dx="1.1884" yy="4"/>
+  <AreaItem AreaID="18" dx="1.0306" yy="4"/>
+  <AreaItem AreaID="13" dx="0.554" yy="2"/>
+  <AreaItem AreaID="9" dx="0.6919" yy="3"/>
+  <AreaItem AreaID="5" dx="0.8433" yy="3"/>
+  <AreaItem AreaID="4" dx="0.4406" yy="2"/>
+  <AreaItem AreaID="0" dx="0.3499" yy="2"/>
+  <AreaItem AreaID="12" dx="0.4901" yy="2"/>
+  <AreaItem AreaID="14" dx="0.6744" yy="3"/>
+  <AreaItem AreaID="8" dx="0.6489" yy="3"/>
+  <AreaItem AreaID="6" dx="0.4561" yy="2"/>
+  <AreaItem AreaID="17" dx="0.5218" yy="2"/>
+  <AreaItem AreaID="20" dx="0.5488" yy="2"/>
+  <AreaItem AreaID="27" dx="0.6757" yy="3"/>
+  <AreaItem AreaID="21" dx="0.9821" yy="4"/>
+  <AreaItem AreaID="23" dx="1.2353" yy="5"/>
+  <AreaItem AreaID="31" dx="0.8885" yy="3"/>
+</AreaData>

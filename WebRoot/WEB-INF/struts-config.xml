@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN" "http://struts.apache.org/dtds/struts-config_1_2.dtd">
+
+<struts-config>
+  <data-sources />
+  <form-beans />
+  <global-exceptions />
+  <global-forwards />
+  <action-mappings>
+    <action path="/login" type="controller.front.LoginAction">
+      <forward name="success" path="/front/main.jsp"/>
+      <forward name="index" path="/front/index.do"/>  
+      <forward name="error" path="/login.jsp"/>
+    </action>
+    <action path="/keeper_enter" type="controller.admin.EnterKeeper">
+      <forward name="success" path="/front/keeper_enter.jsp"/>
+      <forward name="error" path="/front/keeper_enter.jsp"/>
+    </action>
+    <action path="/logout" type="controller.front.LogoutAction">
+      <forward name="success" path="/login.jsp"/>
+    </action>
+    <action path="/cipher_update" type="controller.front.UpdateCipher">
+      <forward name="keeper" path="/front/cipher_update.jsp"/>
+      <forward name="admin" path="/front/m_cipher_update.jsp"/>
+    </action>
+    <action path="/admin/add_class" type="controller.admin.AddClass">
+	  <forward name="success" path="/front/tab/class_manage.jsp" />
+	  <forward name="error" path="/front/tab/class_manage.jsp" />
+	</action>
+	<action path="/admin/modify_class" type="controller.admin.ModifyClass">
+	  <forward name="success" path="/front/tab/class_manage.jsp" />
+	  <forward name="error" path="/front/tab/class_manage.jsp" />
+	</action>
+	<action path="/admin/add_item" type="controller.admin.AddItem">
+	  <forward name="success" path="/front/tab/item_manage.jsp" />
+	  <forward name="error" path="/front/tab/item_manage.jsp" />
+	</action>
+	<action path="/admin/modify_item" type="controller.admin.ModifyItem">
+	  <forward name="success" path="/front/tab/item_manage.jsp" />
+	  <forward name="error" path="/front/tab/item_manage.jsp" />
+	</action>
+    <action path="/admin/delete_class" type="controller.admin.DeleteClass">
+      <forward name="success" path="/front/tab/class_manage.jsp" />
+	  <forward name="error" path="/front/tab/class_manage.jsp" />
+    </action>
+    <action path="/admin/delete_item" type="controller.admin.DeleteItem">
+      <forward name="success" path="/front/tab/item_manage.jsp" />
+	  <forward name="error" path="/front/tab/item_manage.jsp" />
+    </action>
+    <action path="/admin/add_supplier" type="controller.admin.AddSupplier">
+      <forward name="success" path="/front/tab/supplier_manage.jsp" />
+	  <forward name="error" path="/front/tab/supplier_manage.jsp" />
+    </action>
+    <action path="/admin/modify_supplier" type="controller.admin.ModifySupplier">
+      <forward name="success" path="/front/tab/supplier_manage.jsp" />
+	  <forward name="error" path="/front/tab/supplier_manage.jsp" />
+    </action>
+    <action path="/admin/delete_supplier" type="controller.admin.DeleteSupplier">
+      <forward name="success" path="/front/tab/supplier_manage.jsp" />
+	  <forward name="error" path="/front/tab/supplier_manage.jsp" />
+    </action>
+    <action path="/admin/cascade" type="controller.admin.Cascade">
+      <forward name="model_manage" path="/front/tab/model_manage.jsp" />
+      <forward name="model_update" path="/front/tab/model_update.jsp" />
+      <forward name="add_device" path="/front/tab/add_device.jsp" />
+      <forward name="manage_device" path="/front/tab/manage_device.jsp" />
+      <forward name="basic_query" path="/front/tab/basic_query.jsp" />      
+      <forward name="scrap_query" path="/front/tab/scrap_query.jsp" />
+      <forward name="m_basic_query" path="/front/tab/m_basic_query.jsp" />
+      <forward name="m_scrap_query" path="/front/tab/m_scrap_query.jsp" />
+	  <forward name="alarm_query" path="/front/tab/alarm_query.jsp" />
+	  <forward name="m_alarm_query" path="/front/tab/m_alarm_query.jsp" />
+	  <forward name="fault_record" path="/front/tab/fault_record.jsp" />
+	  <forward name="fault_query" path="/front/tab/fault_query.jsp" />
+	  <forward name="m_fault_query" path="/front/tab/m_fault_query.jsp" />
+	  <forward name="m_update_keeper" path="/front/tab/m_manage_device.jsp" />
+    </action>
+    <action path="/admin/add_model" type="controller.admin.AddModel">
+      <forward name="success" path="/front/tab/model_manage.jsp" />
+	  <forward name="error" path="/front/tab/model_manage.jsp" />
+    </action>
+    <action path="/admin/modify_model" type="controller.admin.ModifyModel">
+      <forward name="success" path="/front/tab/model_manage.jsp" />
+	  <forward name="error" path="/front/tab/model_manage.jsp" />
+    </action>
+    <action path="/admin/delete_model" type="controller.admin.DeleteModel">
+      <forward name="success" path="/front/tab/model_manage.jsp" />
+	  <forward name="error" path="/front/tab/model_manage.jsp" />
+    </action>
+    <action path="/front/add_device" type="controller.front.AddDevice">
+      <forward name="success" path="/front/tab/add_device.jsp" />
+	  <forward name="error" path="/front/tab/add_device.jsp" />
+    </action>
+    <action path="/front/query_for_manage" type="controller.front.QueryForManage">
+      <forward name="success" path="/front/split_page.do" />
+	  <forward name="error" path="/front/split_page.do" />
+	  <forward name="alarm_query" path="/front/alarm.do" />
+    </action>
+    <action path="/front/split_page" type="controller.front.SplitPage">
+      <forward name="manage_device" path="/front/tab/manage_device.jsp" />
+      <forward name="basic_query" path="/front/tab/basic_query.jsp" />
+      <forward name="scrap_query" path="/front/tab/scrap_query.jsp" />
+      <forward name="m_basic_query" path="/front/tab/m_basic_query.jsp" />
+      <forward name="m_scrap_query" path="/front/tab/m_scrap_query.jsp" />
+      <forward name="alarm_query" path="/front/tab/alarm_query.jsp" />
+      <forward name="m_alarm_query" path="/front/tab/m_alarm_query.jsp" />
+      <forward name="fault_record" path="/front/tab/fault_record.jsp" />
+      <forward name="fault_query" path="/front/tab/fault_query.jsp" />
+      <forward name="m_fault_query" path="/front/tab/m_fault_query.jsp" />
+      <forward name="m_update_keeper" path="/front/tab/m_manage_device.jsp" />
+    </action>
+    <action path="/front/delete_device" type="controller.front.DeleteDevice">
+      <forward name="success" path="/front/split_page.do" />
+    </action>
+    <action path="/front/add_location" type="controller.front.AddLocation">
+      <forward name="success" path="/front/tab/location_manage.jsp" />
+    </action>
+    <action path="/front/modify_location" type="controller.front.ModifyLocation">
+      <forward name="success" path="/front/tab/location_manage.jsp" />
+    </action>
+    <action path="/front/delete_location" type="controller.front.DeleteLocation">
+      <forward name="success" path="/front/tab/location_manage.jsp" />
+    </action>
+    <action path="/front/modify_device" type="controller.front.ModifyDevice">
+      <set-property property="cancellable" value="true" />
+    </action>
+    <action path="/front/special_query" type="controller.front.SpecialQuery">
+      <forward name="success" path="/front/split_page.do" />
+	  <forward name="error" path="/front/tab/basic_query.jsp" />
+    </action>
+    <action path="/front/alarm" type="controller.front.Alarm">
+      <forward name="success" path="/front/split_page.do" />
+    </action>
+    <action path="/front/fault_register" type="controller.front.FaultRegister">
+      <set-property property="cancellable" value="true" />
+    </action>
+    <action path="/front/get_unfinished_record" type="controller.front.GetUnfinishedRecord">
+      <forward name="success" path="/front/tab/repair_record.jsp" />
+    </action>
+    <action path="/front/update_repair" type="controller.front.UpdateRepair">
+      <set-property property="cancellable" value="true" />
+    </action>
+    <action path="/front/finish" type="controller.front.Finish">
+      <forward name="success" path="/front/get_unfinished_record.do" />
+    </action>
+    <action path="/front/get_finished_record" type="controller.front.GetFinishedRecord">
+      <forward name="self" path="/front/tab/fault_history.jsp" />
+      <forward name="print" path="/front/export_history_record.do" />
+    </action>
+    <action path="/front/single_device_fault" type="controller.front.SingleDeviceFault">
+      <forward name="self" path="/front/tab/single_device_fault.jsp" />
+      <forward name="print" path="/front/export_single_record.do" />
+    </action>
+    <action path="/front/export_device" type="controller.front.ExportDevice">
+      <set-property property="cancellable" value="true" />
+    </action>
+    <action path="/front/export_elapsed_years" type="controller.front.ExportElapsedYears">
+      <set-property property="cancellable" value="true" />
+    </action>
+    <action path="/front/export_alarm" type="controller.front.ExportAlarm">
+      <set-property property="cancellable" value="true" />
+    </action>
+    <action path="/front/export_history_record" type="controller.front.ExportHistoryRecord">
+      <set-property property="cancellable" value="true" />
+    </action>
+    <action path="/front/export_single_record" type="controller.front.ExportSingleRecord">
+      <set-property property="cancellable" value="true" />
+    </action>
+    <action path="/admin/query_for_manage" type="controller.admin.QueryForManage">
+      <forward name="success" path="/front/split_page.do" />
+	  <forward name="m_alarm_query" path="/front/alarm.do" />
+    </action>
+    <action path="/admin/special_query" type="controller.admin.SpecialQuery">
+      <forward name="success" path="/front/split_page.do" />
+    </action>
+    <action path="/admin/get_finished_record" type="controller.admin.GetFinishedRecord">
+      <forward name="self" path="/front/tab/m_fault_history.jsp" />
+      <forward name="print" path="/admin/export_history_record.do" />
+    </action>
+    <action path="/admin/export_history_record" type="controller.admin.ExportHistoryRecord">
+      <set-property property="cancellable" value="true" />
+    </action>
+    <action path="/admin/single_device_fault" type="controller.admin.SingleDeviceFault">
+      <forward name="self" path="/front/tab/m_single_device_fault.jsp" />
+      <forward name="print" path="/admin/export_single_record.do" />
+    </action>
+    <action path="/admin/export_single_record" type="controller.admin.ExportSingleRecord">
+      <set-property property="cancellable" value="true" />
+    </action>
+    <action path="/front/index" type="controller.front.Index">
+      <forward name="success" path="/front/index.jsp" />
+    </action>
+    <action path="/admin/modify_device" type="controller.admin.ModifyDevice">
+      <set-property property="cancellable" value="true" />
+    </action>
+    <action path="/admin/update_keeper" type="controller.admin.UpdateKeeper">
+      <set-property property="cancellable" value="true" />
+    </action>
+    <action path="/front/export_single_device" type="controller.front.ExportSingleDevice">
+      <set-property property="cancellable" value="true" />
+    </action>
+    <action path="/admin/add_department" type="controller.admin.AddDepartment">
+      <forward name="success" path="/front/tab/add_department.jsp" />
+    </action>
+    <action path="/admin/update_department" type="controller.admin.UpdateDepartment">
+      <forward name="success" path="/front/tab/manage_department.jsp" />
+    </action>
+    <action path="/admin/delete_keeper" type="controller.admin.DeleteKeeper">
+      <forward name="success" path="/front/tab/keeper_update.jsp" />
+    </action>
+   
+  </action-mappings>
+  <message-resources parameter="com.yourcompany.struts.ApplicationResources" />
+  
+</struts-config>
+

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee   http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <servlet-name>action</servlet-name>
+    <servlet-class>org.apache.struts.action.ActionServlet</servlet-class>
+    <init-param>
+      <param-name>config</param-name>
+      <param-value>/WEB-INF/struts-config.xml</param-value>
+    </init-param>
+    <init-param>
+      <param-name>debug</param-name>
+      <param-value>3</param-value>
+    </init-param>
+    <init-param>
+      <param-name>detail</param-name>
+      <param-value>3</param-value>
+    </init-param>
+    <load-on-startup>0</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>action</servlet-name>
+    <url-pattern>*.do</url-pattern>
+  </servlet-mapping>
+  
+  <filter>
+      <filter-name>SecurityFilter</filter-name>
+      <filter-class>model.SecurityFilter</filter-class>
+      <init-param>
+        <param-name>noFilter</param-name>
+        <param-value>/front/export_single_device.do,/index.jsp,/admin/single_device_fault.do,/admin/get_finished_record.do,/front/export_alarm.do,/front/export_elapsed_years.do,/front/tab/m_device_detail.jsp,/admin/cascade.do,/front/export_device.do,/admin/special_query.do,/admin/query_for_manage.do,/front/tab/m_fault_history.jsp,/front/tab/basic_query.jsp,/front/split_page.do,/front/header.jsp,/front/bottom.jsp,/front/blank.jsp,/front/index.jsp,/login.jsp,/login.do,/logout.do</param-value>
+      </init-param>
+      <init-param>
+        <param-name>sendRedirect</param-name>
+        <param-value>/login.jsp</param-value>
+      </init-param>
+     
+  </filter>
+  <filter-mapping>
+      <filter-name>SecurityFilter</filter-name>
+      <url-pattern>*.do</url-pattern>
+  </filter-mapping>
+  <filter-mapping>
+      <filter-name>SecurityFilter</filter-name>
+      <url-pattern>*.jsp</url-pattern>
+  </filter-mapping>
+  
+  
+  <welcome-file-list>
+      <welcome-file>login.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
+

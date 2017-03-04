@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Context docBase="em" path="/em">
+  
+  <Resource name="jdbc/emDB" type="javax.sql.DataSource" auth="Container"
+      driverClassName="oracle.jdbc.driver.OracleDriver"
+      url="jdbc:oracle:thin:@127.0.0.1:1521:orcl"
+      username="em"
+      password="em"
+      maxWait="5000"
+      maxActive="10"
+      maxIdle="2"/>  
+  
+</Context>

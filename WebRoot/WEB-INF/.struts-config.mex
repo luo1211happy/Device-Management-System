@@ -1,0 +1,965 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowViewLayout Version="1.2">
+  <StrutsActivity path="/login.do" location="50,50" dimension="214,84" />
+  <StrutsActivity path="/keeper_enter.do" location="350,50" dimension="214,84" />
+  <StrutsActivity path="/logout.do" location="650,50" dimension="220,84" />
+  <StrutsActivity path="/cipher_update.do" location="950,50" dimension="220,84" />
+  <StrutsActivity path="/admin/add_class.do" location="1250,50" dimension="196,84" />
+  <StrutsActivity path="/admin/modify_class.do" location="1550,50" dimension="214,84" />
+  <StrutsActivity path="/admin/add_item.do" location="1850,50" dimension="190,84" />
+  <StrutsActivity path="/admin/modify_item.do" location="50,250" dimension="208,84" />
+  <StrutsActivity path="/admin/delete_class.do" location="350,250" dimension="214,84" />
+  <StrutsActivity path="/admin/delete_item.do" location="650,250" dimension="208,84" />
+  <StrutsActivity path="/admin/add_supplier.do" location="950,250" dimension="214,84" />
+  <StrutsActivity path="/admin/modify_supplier.do" location="1250,250" dimension="232,84" />
+  <StrutsActivity path="/admin/delete_supplier.do" location="1550,250" dimension="232,84" />
+  <StrutsActivity path="/admin/cascade.do" location="1850,250" dimension="190,84" />
+  <StrutsActivity path="/admin/add_model.do" location="50,450" dimension="196,84" />
+  <StrutsActivity path="/admin/modify_model.do" location="350,450" dimension="214,84" />
+  <StrutsActivity path="/admin/delete_model.do" location="650,450" dimension="214,84" />
+  <StrutsActivity path="/front/add_device.do" location="950,450" dimension="202,84" />
+  <StrutsActivity path="/front/query_for_manage.do" location="1250,450" dimension="232,84" />
+  <StrutsActivity path="/front/split_page.do" location="1550,450" dimension="202,84" />
+  <StrutsActivity path="/front/delete_device.do" location="1850,450" dimension="220,84" />
+  <StrutsActivity path="/front/add_location.do" location="50,650" dimension="214,84" />
+  <StrutsActivity path="/front/modify_location.do" location="350,650" dimension="232,84" />
+  <StrutsActivity path="/front/delete_location.do" location="650,650" dimension="232,84" />
+  <StrutsActivity path="/front/modify_device.do" location="950,650" dimension="220,84" />
+  <StrutsActivity path="/front/special_query.do" location="1250,650" dimension="220,84" />
+  <StrutsActivity path="/front/alarm.do" location="1550,650" dimension="178,84" />
+  <StrutsActivity path="/front/fault_register.do" location="1850,650" dimension="226,84" />
+  <StrutsActivity path="/front/get_unfinished_record.do" location="50,850" dimension="262,84" />
+  <StrutsActivity path="/front/update_repair.do" location="650,850" dimension="220,84" />
+  <StrutsActivity path="/front/finish.do" location="950,850" dimension="184,84" />
+  <StrutsActivity path="/front/get_finished_record.do" location="1250,850" dimension="250,84" />
+  <StrutsActivity path="/front/single_device_fault.do" location="1550,850" dimension="250,84" />
+  <StrutsActivity path="/front/export_device.do" location="1850,850" dimension="220,84" />
+  <StrutsActivity path="/front/export_elapsed_years.do" location="1850,1250" dimension="256,84" />
+  <StrutsActivity path="/front/export_alarm.do" location="50,1350" dimension="214,84" />
+  <StrutsActivity path="/front/export_history_record.do" location="350,1350" dimension="262,84" />
+  <StrutsActivity path="/front/export_single_record.do" location="950,1350" dimension="256,84" />
+  <StrutsActivity path="/admin/query_for_manage.do" location="1850,1450" dimension="232,84" />
+  <StrutsActivity path="/admin/special_query.do" location="50,1550" dimension="220,84" />
+  <StrutsActivity path="/admin/get_finished_record.do" location="2150,750" dimension="250,84" />
+  <StrutsActivity path="/admin/export_history_record.do" location="2150,550" dimension="262,84" />
+  <StrutsActivity path="/admin/single_device_fault.do" location="2150,1050" dimension="250,84" />
+  <StrutsActivity path="/admin/export_single_record.do" location="2150,1550" dimension="256,84" />
+  <StrutsActivity path="/front/index.do" location="1550,1550" dimension="178,84" />
+  <StrutsActivity path="/admin/modify_device.do" location="650,1650" dimension="220,84" />
+  <StrutsActivity path="/admin/update_keeper.do" location="950,1650" dimension="220,84" />
+  <StrutsActivity path="/front/export_single_device.do" location="50,1750" dimension="256,84" />
+  <StrutsActivity path="/admin/add_department.do" location="1250,1650" dimension="226,84" />
+  <StrutsActivity path="/admin/update_department.do" location="1550,1750" dimension="244,84" />
+  <StrutsActivity path="/admin/delete_keeper.do" location="2450,950" dimension="220,84" />
+  <StrutsActivity path="/login.jsp" location="50,1050" dimension="100,48" />
+  <StrutsActivity path="/front/main.jsp" location="350,1050" dimension="130,48" />
+  <StrutsActivity path="/front/keeper_enter.jsp" location="650,1050" dimension="178,48" />
+  <StrutsActivity path="/front/m_cipher_update.jsp" location="2450,850" dimension="196,48" />
+  <StrutsActivity path="/front/cipher_update.jsp" location="950,1050" dimension="184,48" />
+  <StrutsActivity path="/front/tab/class_manage.jsp" location="1250,1050" dimension="202,48" />
+  <StrutsActivity path="/front/tab/item_manage.jsp" location="1550,1050" dimension="196,48" />
+  <StrutsActivity path="/front/tab/supplier_manage.jsp" location="1850,1050" dimension="220,48" />
+  <StrutsActivity path="/front/tab/m_scrap_query.jsp" location="1550,1350" dimension="208,48" />
+  <StrutsActivity path="/front/tab/m_manage_device.jsp" location="350,1650" dimension="220,48" />
+  <StrutsActivity path="/front/tab/manage_device.jsp" location="650,1150" dimension="208,48" />
+  <StrutsActivity path="/front/tab/model_update.jsp" location="350,1250" dimension="202,48" />
+  <StrutsActivity path="/front/tab/scrap_query.jsp" location="50,1150" dimension="196,48" />
+  <StrutsActivity path="/front/tab/fault_record.jsp" location="350,1150" dimension="202,48" />
+  <StrutsActivity path="/front/tab/m_alarm_query.jsp" location="350,1550" dimension="208,48" />
+  <StrutsActivity path="/front/tab/model_manage.jsp" location="950,1150" dimension="202,48" />
+  <StrutsActivity path="/front/tab/basic_query.jsp" location="1250,1150" dimension="196,48" />
+  <StrutsActivity path="/front/tab/m_fault_query.jsp" location="2150,1450" dimension="208,48" />
+  <StrutsActivity path="/front/tab/add_device.jsp" location="1550,1150" dimension="190,48" />
+  <StrutsActivity path="/front/tab/fault_query.jsp" location="1850,1150" dimension="196,48" />
+  <StrutsActivity path="/front/tab/alarm_query.jsp" location="50,1250" dimension="196,48" />
+  <StrutsActivity path="/front/tab/m_basic_query.jsp" location="1550,1450" dimension="208,48" />
+  <StrutsActivity path="/front/tab/location_manage.jsp" location="650,1250" dimension="220,48" />
+  <StrutsActivity path="/front/tab/repair_record.jsp" location="950,1250" dimension="208,48" />
+  <StrutsActivity path="/front/tab/fault_history.jsp" location="1250,1250" dimension="208,48" />
+  <StrutsActivity path="/front/tab/single_device_fault.jsp" location="1550,1250" dimension="244,48" />
+  <StrutsActivity path="/front/tab/m_fault_history.jsp" location="2150,950" dimension="220,48" />
+  <StrutsActivity path="/front/tab/m_single_device_fault.jsp" location="950,1550" dimension="256,48" />
+  <StrutsActivity path="/front/index.jsp" location="650,1550" dimension="136,48" />
+  <StrutsActivity path="/front/tab/add_department.jsp" location="1850,1650" dimension="214,48" />
+  <StrutsActivity path="/front/tab/manage_department.jsp" location="950,2150" dimension="232,48" />
+  <StrutsActivity path="/front/tab/keeper_update.jsp" location="2450,1150" dimension="208,48" />
+  <StrutsTransition id="/front/add_device.do,success,/front/tab/add_device.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="950,492" />
+      <AbsolutePoint location="940,492" />
+      <AbsolutePoint location="940,1208" />
+      <AbsolutePoint location="1645,1208" />
+      <AbsolutePoint location="1645,1198" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/front/single_device_fault.do,print,/front/export_single_record.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1797,934" />
+      <AbsolutePoint location="1797,1414" />
+      <AbsolutePoint location="1206,1414" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/admin/delete_item.do,error,/front/tab/item_manage.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="768,334" />
+      <AbsolutePoint location="768,358" />
+      <AbsolutePoint location="1837,358" />
+      <AbsolutePoint location="1837,1052" />
+      <AbsolutePoint location="1746,1052" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/admin/cascade_dep.do,fault_record,/front/tab/fault_record.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2498,1334" />
+      <AbsolutePoint location="2498,1713" />
+      <AbsolutePoint location="1491,1713" />
+      <AbsolutePoint location="1491,1613" />
+      <AbsolutePoint location="296,1613" />
+      <AbsolutePoint location="296,1174" />
+      <AbsolutePoint location="350,1174" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/front/split_page.do,m_scrap_query,/front/tab/m_scrap_query.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1687,534" />
+      <AbsolutePoint location="1687,637" />
+      <AbsolutePoint location="1221,637" />
+      <AbsolutePoint location="1221,1374" />
+      <AbsolutePoint location="1550,1374" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/keeper_enter.do,success,/front/keeper_enter.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="457,134" />
+      <AbsolutePoint location="457,179" />
+      <AbsolutePoint location="927,179" />
+      <AbsolutePoint location="927,1074" />
+      <AbsolutePoint location="828,1074" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/admin/cascade.do,fault_record,/front/tab/fault_record.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1850,302" />
+      <AbsolutePoint location="1789,302" />
+      <AbsolutePoint location="1789,813" />
+      <AbsolutePoint location="527,813" />
+      <AbsolutePoint location="527,1150" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/admin/add_supplier.do,error,/front/tab/supplier_manage.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1071,334" />
+      <AbsolutePoint location="1071,388" />
+      <AbsolutePoint location="2143,388" />
+      <AbsolutePoint location="2143,1074" />
+      <AbsolutePoint location="2070,1074" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/admin/update_department.do,success,/front/tab/manage_department.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1550,1750" />
+      <AbsolutePoint location="950,2150" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/admin/add_item.do,error,/front/tab/item_manage.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2040,92" />
+      <AbsolutePoint location="2121,92" />
+      <AbsolutePoint location="2121,1113" />
+      <AbsolutePoint location="1648,1113" />
+      <AbsolutePoint location="1648,1098" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/admin/cascade_dep.do,add_device,/front/tab/add_device.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2706,1292" />
+      <AbsolutePoint location="2716,1292" />
+      <AbsolutePoint location="2716,1240" />
+      <AbsolutePoint location="1645,1240" />
+      <AbsolutePoint location="1645,1198" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/admin/add_item.do,success,/front/tab/item_manage.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2040,122" />
+      <AbsolutePoint location="2091,122" />
+      <AbsolutePoint location="2091,1213" />
+      <AbsolutePoint location="1761,1213" />
+      <AbsolutePoint location="1761,1074" />
+      <AbsolutePoint location="1746,1074" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/admin/query_for_manage.do,m_alarm_query,/front/alarm.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1850,1492" />
+      <AbsolutePoint location="1840,1492" />
+      <AbsolutePoint location="1840,692" />
+      <AbsolutePoint location="1728,692" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/front/split_page.do,fault_query,/front/tab/fault_query.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1752,508" />
+      <AbsolutePoint location="1846,508" />
+      <AbsolutePoint location="1846,1174" />
+      <AbsolutePoint location="1850,1174" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/front/query_for_manage.do,error,/front/split_page.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1366,492" />
+      <AbsolutePoint location="1651,492" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/front/split_page.do,fault_record,/front/tab/fault_record.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1550,493" />
+      <AbsolutePoint location="1497,493" />
+      <AbsolutePoint location="1497,795" />
+      <AbsolutePoint location="487,795" />
+      <AbsolutePoint location="487,1150" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/front/query_for_manage.do,error,/front/tab/manage_device.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1482,509" />
+      <AbsolutePoint location="1484,509" />
+      <AbsolutePoint location="1484,770" />
+      <AbsolutePoint location="566,770" />
+      <AbsolutePoint location="566,1178" />
+      <AbsolutePoint location="650,1178" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/admin/modify_model.do,error,/front/tab/model_manage.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="564,492" />
+      <AbsolutePoint location="645,492" />
+      <AbsolutePoint location="645,1131" />
+      <AbsolutePoint location="1051,1131" />
+      <AbsolutePoint location="1051,1150" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/admin/cascade.do,m_fault_query,/front/tab/m_fault_query.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2040,330" />
+      <AbsolutePoint location="2073,330" />
+      <AbsolutePoint location="2073,643" />
+      <AbsolutePoint location="2403,643" />
+      <AbsolutePoint location="2403,1474" />
+      <AbsolutePoint location="2358,1474" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/front/special_query.do,error,/front/tab/basic_query.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1250,692" />
+      <AbsolutePoint location="1240,692" />
+      <AbsolutePoint location="1240,1174" />
+      <AbsolutePoint location="1250,1174" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/front/split_page.do,alarm_query,/front/tab/alarm_query.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1622,534" />
+      <AbsolutePoint location="1622,540" />
+      <AbsolutePoint location="-42,540" />
+      <AbsolutePoint location="-42,1274" />
+      <AbsolutePoint location="50,1274" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/front/split_page.do,m_alarm_query,/front/tab/m_alarm_query.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1646,450" />
+      <AbsolutePoint location="1646,440" />
+      <AbsolutePoint location="340,440" />
+      <AbsolutePoint location="340,1574" />
+      <AbsolutePoint location="350,1574" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/front/modify_location.do,success,/front/tab/location_manage.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="466,734" />
+      <AbsolutePoint location="466,971" />
+      <AbsolutePoint location="865,971" />
+      <AbsolutePoint location="865,1250" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/admin/cascade_dep.do,manage_device,/front/tab/manage_device.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2564,1334" />
+      <AbsolutePoint location="2564,1883" />
+      <AbsolutePoint location="637,1883" />
+      <AbsolutePoint location="637,1235" />
+      <AbsolutePoint location="732,1235" />
+      <AbsolutePoint location="732,1198" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/front/split_page.do,m_update_keeper,/front/tab/m_manage_device.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1550,470" />
+      <AbsolutePoint location="1489,470" />
+      <AbsolutePoint location="1489,-112" />
+      <AbsolutePoint location="-180,-112" />
+      <AbsolutePoint location="-180,1674" />
+      <AbsolutePoint location="350,1674" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/admin/cascade.do,fault_query,/front/tab/fault_query.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1955,334" />
+      <AbsolutePoint location="1955,442" />
+      <AbsolutePoint location="1203,442" />
+      <AbsolutePoint location="1203,1245" />
+      <AbsolutePoint location="1948,1245" />
+      <AbsolutePoint location="1948,1198" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/admin/cascade.do,m_scrap_query,/front/tab/m_scrap_query.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1997,250" />
+      <AbsolutePoint location="1997,209" />
+      <AbsolutePoint location="2775,209" />
+      <AbsolutePoint location="2775,1374" />
+      <AbsolutePoint location="1758,1374" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/front/query_for_manage.do,alarm_query,/front/alarm.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1366,534" />
+      <AbsolutePoint location="1366,583" />
+      <AbsolutePoint location="1622,583" />
+      <AbsolutePoint location="1622,650" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/front/special_query.do,success,/front/split_page.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1360,650" />
+      <AbsolutePoint location="1360,602" />
+      <AbsolutePoint location="1651,602" />
+      <AbsolutePoint location="1651,534" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/admin/single_device_fault.do,print,/admin/export_single_record.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2373,1134" />
+      <AbsolutePoint location="2373,1550" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/admin/modify_supplier.do,error,/front/tab/supplier_manage.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1453,250" />
+      <AbsolutePoint location="1453,-274" />
+      <AbsolutePoint location="2853,-274" />
+      <AbsolutePoint location="2853,905" />
+      <AbsolutePoint location="2377,905" />
+      <AbsolutePoint location="2377,1009" />
+      <AbsolutePoint location="1952,1009" />
+      <AbsolutePoint location="1952,1050" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/admin/cascade.do,model_update,/front/tab/model_update.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2040,270" />
+      <AbsolutePoint location="2811,270" />
+      <AbsolutePoint location="2811,1341" />
+      <AbsolutePoint location="451,1341" />
+      <AbsolutePoint location="451,1298" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/front/alarm.do,success,/front/split_page.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1669,650" />
+      <AbsolutePoint location="1669,534" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/login.do,index,/front/index.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="157,92" />
+      <AbsolutePoint location="1639,1592" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/front/index.do,success,/front/index.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1639,1592" />
+      <AbsolutePoint location="650,1550" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/admin/delete_class.do,success,/front/tab/class_manage.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="457,334" />
+      <AbsolutePoint location="457,418" />
+      <AbsolutePoint location="1243,418" />
+      <AbsolutePoint location="1243,1052" />
+      <AbsolutePoint location="1250,1052" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/front/get_finished_record.do,print,/front/export_history_record.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1489,934" />
+      <AbsolutePoint location="1489,1519" />
+      <AbsolutePoint location="481,1519" />
+      <AbsolutePoint location="481,1434" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/admin/cascade_dep.do,alarm_query,/front/tab/alarm_query.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2664,1334" />
+      <AbsolutePoint location="2664,2009" />
+      <AbsolutePoint location="-417,2009" />
+      <AbsolutePoint location="-417,1314" />
+      <AbsolutePoint location="148,1314" />
+      <AbsolutePoint location="148,1298" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/admin/add_model.do,error,/front/tab/model_manage.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="246,492" />
+      <AbsolutePoint location="285,492" />
+      <AbsolutePoint location="285,757" />
+      <AbsolutePoint location="1165,757" />
+      <AbsolutePoint location="1165,1174" />
+      <AbsolutePoint location="1152,1174" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/admin/cascade_dep.do,m_update_keeper,/front/tab/m_manage_device.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2600,1334" />
+      <AbsolutePoint location="2600,2363" />
+      <AbsolutePoint location="460,2363" />
+      <AbsolutePoint location="460,1698" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/admin/modify_item.do,error,/front/tab/item_manage.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="50,314" />
+      <AbsolutePoint location="5,314" />
+      <AbsolutePoint location="5,1113" />
+      <AbsolutePoint location="1618,1113" />
+      <AbsolutePoint location="1618,1098" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/admin/add_supplier.do,success,/front/tab/supplier_manage.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1057,334" />
+      <AbsolutePoint location="1057,404" />
+      <AbsolutePoint location="2447,404" />
+      <AbsolutePoint location="2447,1141" />
+      <AbsolutePoint location="1960,1141" />
+      <AbsolutePoint location="1960,1098" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/admin/cascade.do,model_manage,/front/tab/model_manage.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2040,292" />
+      <AbsolutePoint location="2551,292" />
+      <AbsolutePoint location="2551,741" />
+      <AbsolutePoint location="1141,741" />
+      <AbsolutePoint location="1141,1150" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/admin/cascade_dep.do,model_manage,/front/tab/model_manage.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2578,1250" />
+      <AbsolutePoint location="2578,1245" />
+      <AbsolutePoint location="1051,1245" />
+      <AbsolutePoint location="1051,1198" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/admin/single_device_fault.do,self,/front/tab/m_single_device_fault.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2400,1092" />
+      <AbsolutePoint location="2983,1092" />
+      <AbsolutePoint location="2983,2273" />
+      <AbsolutePoint location="1197,2273" />
+      <AbsolutePoint location="1197,1598" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/admin/delete_supplier.do,error,/front/tab/supplier_manage.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1782,292" />
+      <AbsolutePoint location="1847,292" />
+      <AbsolutePoint location="1847,1074" />
+      <AbsolutePoint location="1850,1074" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/admin/cascade_dep.do,m_scrap_query,/front/tab/m_scrap_query.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2476,1334" />
+      <AbsolutePoint location="2476,1641" />
+      <AbsolutePoint location="1355,1641" />
+      <AbsolutePoint location="1355,1306" />
+      <AbsolutePoint location="1654,1306" />
+      <AbsolutePoint location="1654,1350" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/front/finish.do,success,/front/get_unfinished_record.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1042,934" />
+      <AbsolutePoint location="1042,941" />
+      <AbsolutePoint location="266,941" />
+      <AbsolutePoint location="266,934" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/login.do,error,/login.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="50,92" />
+      <AbsolutePoint location="-25,92" />
+      <AbsolutePoint location="-25,1074" />
+      <AbsolutePoint location="50,1074" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/admin/cascade.do,scrap_query,/front/tab/scrap_query.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1945,250" />
+      <AbsolutePoint location="1945,209" />
+      <AbsolutePoint location="35,209" />
+      <AbsolutePoint location="35,1174" />
+      <AbsolutePoint location="50,1174" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/admin/delete_keeper.do,success,/front/tab/keeper_update.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2560,992" />
+      <AbsolutePoint location="2450,1150" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/admin/cascade.do,alarm_query,/front/tab/alarm_query.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1967,250" />
+      <AbsolutePoint location="1967,144" />
+      <AbsolutePoint location="-51,144" />
+      <AbsolutePoint location="-51,1283" />
+      <AbsolutePoint location="50,1283" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/logout.do,success,/login.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="650,122" />
+      <AbsolutePoint location="597,122" />
+      <AbsolutePoint location="597,1013" />
+      <AbsolutePoint location="100,1013" />
+      <AbsolutePoint location="100,1050" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/admin/delete_class.do,error,/front/tab/class_manage.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="479,334" />
+      <AbsolutePoint location="479,382" />
+      <AbsolutePoint location="897,382" />
+      <AbsolutePoint location="897,1013" />
+      <AbsolutePoint location="1291,1013" />
+      <AbsolutePoint location="1291,1050" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/front/split_page.do,m_fault_query,/front/tab/m_fault_query.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1656,450" />
+      <AbsolutePoint location="1656,440" />
+      <AbsolutePoint location="2140,440" />
+      <AbsolutePoint location="2140,1474" />
+      <AbsolutePoint location="2150,1474" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/admin/cascade.do,basic_query,/front/tab/basic_query.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1945,334" />
+      <AbsolutePoint location="1945,434" />
+      <AbsolutePoint location="1547,434" />
+      <AbsolutePoint location="1547,1174" />
+      <AbsolutePoint location="1446,1174" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/admin/cascade.do,manage_device,/front/tab/manage_device.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2040,320" />
+      <AbsolutePoint location="2433,320" />
+      <AbsolutePoint location="2433,1235" />
+      <AbsolutePoint location="754,1235" />
+      <AbsolutePoint location="754,1198" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/admin/cascade_dep.do,model_update,/front/tab/model_update.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2578,1334" />
+      <AbsolutePoint location="2578,1987" />
+      <AbsolutePoint location="319,1987" />
+      <AbsolutePoint location="319,1274" />
+      <AbsolutePoint location="350,1274" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/admin/modify_item.do,success,/front/tab/item_manage.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="50,292" />
+      <AbsolutePoint location="-65,292" />
+      <AbsolutePoint location="-65,1035" />
+      <AbsolutePoint location="1648,1035" />
+      <AbsolutePoint location="1648,1050" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/admin/cascade_dep.do,m_fault_query,/front/tab/m_fault_query.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2450,1309" />
+      <AbsolutePoint location="2254,1309" />
+      <AbsolutePoint location="2254,1450" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/admin/cascade_dep.do,m_alarm_query,/front/tab/m_alarm_query.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2630,1334" />
+      <AbsolutePoint location="2630,2213" />
+      <AbsolutePoint location="585,2213" />
+      <AbsolutePoint location="585,1574" />
+      <AbsolutePoint location="558,1574" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/admin/query_for_manage.do,success,/front/split_page.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1966,1534" />
+      <AbsolutePoint location="1966,1544" />
+      <AbsolutePoint location="1843,1544" />
+      <AbsolutePoint location="1843,518" />
+      <AbsolutePoint location="1752,518" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/front/split_page.do,scrap_query,/front/tab/scrap_query.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1735,534" />
+      <AbsolutePoint location="1735,837" />
+      <AbsolutePoint location="521,837" />
+      <AbsolutePoint location="521,1131" />
+      <AbsolutePoint location="147,1131" />
+      <AbsolutePoint location="147,1150" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/admin/delete_model.do,success,/front/tab/model_manage.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="757,534" />
+      <AbsolutePoint location="757,565" />
+      <AbsolutePoint location="301,565" />
+      <AbsolutePoint location="301,801" />
+      <AbsolutePoint location="879,801" />
+      <AbsolutePoint location="879,1180" />
+      <AbsolutePoint location="950,1180" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/front/get_unfinished_record.do,success,/front/tab/repair_record.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="253,934" />
+      <AbsolutePoint location="253,1314" />
+      <AbsolutePoint location="1054,1314" />
+      <AbsolutePoint location="1054,1298" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/admin/special_query.do,success,/front/split_page.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="266,1550" />
+      <AbsolutePoint location="266,986" />
+      <AbsolutePoint location="376,986" />
+      <AbsolutePoint location="376,812" />
+      <AbsolutePoint location="270,812" />
+      <AbsolutePoint location="270,556" />
+      <AbsolutePoint location="1647,556" />
+      <AbsolutePoint location="1647,534" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/front/add_device.do,error,/front/tab/add_device.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1051,534" />
+      <AbsolutePoint location="1051,637" />
+      <AbsolutePoint location="-261,637" />
+      <AbsolutePoint location="-261,1937" />
+      <AbsolutePoint location="1815,1937" />
+      <AbsolutePoint location="1815,1174" />
+      <AbsolutePoint location="1740,1174" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/admin/cascade_dep.do,m_basic_query,/front/tab/m_basic_query.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2528,1334" />
+      <AbsolutePoint location="2528,1741" />
+      <AbsolutePoint location="1735,1741" />
+      <AbsolutePoint location="1735,1498" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/front/delete_location.do,success,/front/tab/location_manage.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="766,734" />
+      <AbsolutePoint location="766,743" />
+      <AbsolutePoint location="579,743" />
+      <AbsolutePoint location="579,1274" />
+      <AbsolutePoint location="650,1274" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/admin/cascade.do,m_basic_query,/front/tab/m_basic_query.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1923,250" />
+      <AbsolutePoint location="1923,231" />
+      <AbsolutePoint location="-79,231" />
+      <AbsolutePoint location="-79,1474" />
+      <AbsolutePoint location="1550,1474" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/admin/get_finished_record.do,self,/front/tab/m_fault_history.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2260,834" />
+      <AbsolutePoint location="2260,950" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/admin/cascade_dep.do,scrap_query,/front/tab/scrap_query.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2600,1334" />
+      <AbsolutePoint location="2600,2111" />
+      <AbsolutePoint location="35,2111" />
+      <AbsolutePoint location="35,1213" />
+      <AbsolutePoint location="148,1213" />
+      <AbsolutePoint location="148,1198" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/admin/add_model.do,success,/front/tab/model_manage.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="148,534" />
+      <AbsolutePoint location="148,589" />
+      <AbsolutePoint location="945,589" />
+      <AbsolutePoint location="945,1174" />
+      <AbsolutePoint location="950,1174" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/cipher_update.do,admin,/front/m_cipher_update.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1060,50" />
+      <AbsolutePoint location="1060,-187" />
+      <AbsolutePoint location="2521,-187" />
+      <AbsolutePoint location="2521,850" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/admin/delete_item.do,success,/front/tab/item_manage.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="754,334" />
+      <AbsolutePoint location="754,432" />
+      <AbsolutePoint location="1537,432" />
+      <AbsolutePoint location="1537,1052" />
+      <AbsolutePoint location="1550,1052" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/admin/delete_supplier.do,success,/front/tab/supplier_manage.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1759,334" />
+      <AbsolutePoint location="1759,785" />
+      <AbsolutePoint location="413,785" />
+      <AbsolutePoint location="413,987" />
+      <AbsolutePoint location="1924,987" />
+      <AbsolutePoint location="1924,1050" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/front/single_device_fault.do,self,/front/tab/single_device_fault.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1783,934" />
+      <AbsolutePoint location="1783,1250" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/front/add_location.do,success,/front/tab/location_manage.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="157,734" />
+      <AbsolutePoint location="157,829" />
+      <AbsolutePoint location="557,829" />
+      <AbsolutePoint location="557,1280" />
+      <AbsolutePoint location="650,1280" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/admin/add_class.do,error,/front/tab/class_manage.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1446,92" />
+      <AbsolutePoint location="1515,92" />
+      <AbsolutePoint location="1515,1074" />
+      <AbsolutePoint location="1452,1074" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/front/query_for_manage.do,success,/front/split_page.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1482,492" />
+      <AbsolutePoint location="1550,492" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/login.do,success,/front/main.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="264,92" />
+      <AbsolutePoint location="327,92" />
+      <AbsolutePoint location="327,1074" />
+      <AbsolutePoint location="350,1074" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/front/split_page.do,m_basic_query,/front/tab/m_basic_query.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1651,534" />
+      <AbsolutePoint location="1651,544" />
+      <AbsolutePoint location="1540,544" />
+      <AbsolutePoint location="1540,1474" />
+      <AbsolutePoint location="1550,1474" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/admin/cascade_dep.do,fault_query,/front/tab/fault_query.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2450,1292" />
+      <AbsolutePoint location="2315,1292" />
+      <AbsolutePoint location="2315,1174" />
+      <AbsolutePoint location="2046,1174" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/admin/cascade.do,m_update_keeper,/front/tab/m_manage_device.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1945,292" />
+      <AbsolutePoint location="460,1674" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/admin/add_department.do,success,/front/tab/add_department.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1476,1674" />
+      <AbsolutePoint location="1850,1674" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/admin/modify_model.do,success,/front/tab/model_manage.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="350,492" />
+      <AbsolutePoint location="345,492" />
+      <AbsolutePoint location="345,1213" />
+      <AbsolutePoint location="1051,1213" />
+      <AbsolutePoint location="1051,1198" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/admin/modify_class.do,success,/front/tab/class_manage.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1657,134" />
+      <AbsolutePoint location="1657,185" />
+      <AbsolutePoint location="2723,185" />
+      <AbsolutePoint location="2723,941" />
+      <AbsolutePoint location="1351,941" />
+      <AbsolutePoint location="1351,1050" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/front/delete_device.do,success,/front/split_page.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1850,488" />
+      <AbsolutePoint location="1752,488" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/keeper_enter.do,error,/front/keeper_enter.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="564,92" />
+      <AbsolutePoint location="627,92" />
+      <AbsolutePoint location="627,1074" />
+      <AbsolutePoint location="650,1074" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/admin/modify_class.do,error,/front/tab/class_manage.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1764,92" />
+      <AbsolutePoint location="1815,92" />
+      <AbsolutePoint location="1815,965" />
+      <AbsolutePoint location="1373,965" />
+      <AbsolutePoint location="1373,1050" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/front/split_page.do,basic_query,/front/tab/basic_query.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1752,492" />
+      <AbsolutePoint location="1776,492" />
+      <AbsolutePoint location="1776,826" />
+      <AbsolutePoint location="2072,826" />
+      <AbsolutePoint location="2072,1130" />
+      <AbsolutePoint location="1348,1130" />
+      <AbsolutePoint location="1348,1150" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/front/get_finished_record.do,self,/front/tab/fault_history.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1465,934" />
+      <AbsolutePoint location="1465,1274" />
+      <AbsolutePoint location="1458,1274" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/admin/cascade.do,add_device,/front/tab/add_device.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1939,334" />
+      <AbsolutePoint location="1939,344" />
+      <AbsolutePoint location="-93,344" />
+      <AbsolutePoint location="-93,1141" />
+      <AbsolutePoint location="1670,1141" />
+      <AbsolutePoint location="1670,1150" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/admin/cascade_dep.do,basic_query,/front/tab/basic_query.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2550,1334" />
+      <AbsolutePoint location="2550,1856" />
+      <AbsolutePoint location="1516,1856" />
+      <AbsolutePoint location="1516,1191" />
+      <AbsolutePoint location="1446,1191" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/admin/delete_model.do,error,/front/tab/model_manage.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="763,534" />
+      <AbsolutePoint location="763,613" />
+      <AbsolutePoint location="1491,613" />
+      <AbsolutePoint location="1491,843" />
+      <AbsolutePoint location="1151,843" />
+      <AbsolutePoint location="1151,1150" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/admin/add_class.do,success,/front/tab/class_manage.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1250,122" />
+      <AbsolutePoint location="1185,122" />
+      <AbsolutePoint location="1185,965" />
+      <AbsolutePoint location="1321,965" />
+      <AbsolutePoint location="1321,1050" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/admin/cascade.do,m_alarm_query,/front/tab/m_alarm_query.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1977,334" />
+      <AbsolutePoint location="1977,352" />
+      <AbsolutePoint location="2931,352" />
+      <AbsolutePoint location="2931,1441" />
+      <AbsolutePoint location="454,1441" />
+      <AbsolutePoint location="454,1550" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/cipher_update.do,keeper,/front/cipher_update.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1078,50" />
+      <AbsolutePoint location="1078,-58" />
+      <AbsolutePoint location="-342,-58" />
+      <AbsolutePoint location="-342,2051" />
+      <AbsolutePoint location="903,2051" />
+      <AbsolutePoint location="903,1092" />
+      <AbsolutePoint location="950,1092" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/admin/modify_supplier.do,success,/front/tab/supplier_manage.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1380,334" />
+      <AbsolutePoint location="1380,374" />
+      <AbsolutePoint location="2419,374" />
+      <AbsolutePoint location="2419,1035" />
+      <AbsolutePoint location="1974,1035" />
+      <AbsolutePoint location="1974,1050" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/admin/get_finished_record.do,print,/admin/export_history_record.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2281,750" />
+      <AbsolutePoint location="2281,634" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/front/split_page.do,manage_device,/front/tab/manage_device.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1752,496" />
+      <AbsolutePoint location="1772,496" />
+      <AbsolutePoint location="1772,774" />
+      <AbsolutePoint location="574,774" />
+      <AbsolutePoint location="574,1174" />
+      <AbsolutePoint location="650,1174" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+</FlowViewLayout>
+
